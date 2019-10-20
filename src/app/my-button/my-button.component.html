@@ -1,0 +1,9 @@
+
+<button type="button" class="btn" #btn
+        [style.backgroundColor]="color.value"
+        [style.color]="color.contrast"
+         (mouseenter)="onEnter()"
+        (mouseleave)="onLeave()"
+        (mousedown)="onMouseDown()"
+        (mouseup)="onMouseUp()"
+>{{color.name}}</button>
